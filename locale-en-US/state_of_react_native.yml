@@ -941,6 +941,8 @@ translations:
     t:  How many React Native apps have you published to the app stores?
   - key: developer_background.developer_background_os_target.question
     t: Target OS
+  - key: developer_background.developer_background_os_target.description
+    t: What mobile OS versions do you target?
   - key: developer_background.developer_background_industry_sector.question
     t: Industry sectors using React Native
   - key: developer_background.developer_background_industry_sector.description
