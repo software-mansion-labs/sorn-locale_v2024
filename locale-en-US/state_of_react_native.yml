@@ -663,6 +663,10 @@ translations:
     t: Styling pain points
   - key: styling.styling_pain_points.question
     t: What pain points have you encountered with styling in your React Native projects? If applicable, point out the specific solution and its problems.
+  - key: styling.styling_techniques_pain_points
+    t: Styling pain points
+  - key: styling.styling_techniques_pain_points.question
+    t: What pain points have you encountered with styling in your React Native projects? If applicable, point out the specific solution and its problems.
 
   # Component Libraries section
   - key: sections.component_libraries.title
