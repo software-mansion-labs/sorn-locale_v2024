@@ -749,7 +749,7 @@ translations:
 
   # App Aspects section
   - key: sections.react_native_app_aspects.title
-    t: App aspects
+    t: App Aspects
   - key: sections.react_native_app_aspects.description
     t: What solutions to other well-defined problems do you regularly use in your React Native apps?
   - key: react_native_app_aspects.react_native_app_aspects_analytics.question
@@ -814,13 +814,11 @@ translations:
     t: What pain points have you encountered with other libraries in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_architecture_local_first
     t: Local-first app architecture
-  - key: react_native_app_aspects.react_native_app_aspects_architecture_local_first.question
-    name: Local-first app architecture
 
 
   # React Native Features section
   - key: sections.react_native_specific_features.title
-    t: React Native features
+    t: React Native Features
   - key: sections.react_native_specific_features.description
     t: What is your knowledge of the features specific to React Native development?
   - key: react_native_specific_features.react_native_features_version.question
@@ -1335,7 +1333,7 @@ translations:
     t: Mobile-Web code sharing
 
   - key: deployment.deployment_other
-    t: Other deployment solutions
+    t: Other solutions
   - key: deployment.deployment_other.question
     t: Other ways to build app and release to the stores
 
