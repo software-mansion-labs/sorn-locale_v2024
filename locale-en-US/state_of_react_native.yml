@@ -617,7 +617,7 @@ translations:
   - key: sections.platform_apis.description
     t: The features provided by the operation system.
   - key: platform_apis.platform_apis_questions.question
-    t: What Platform APIs have you used in 2024 in React Native? Check all that apply
+    t: What Platform APIs do you use in React Native apps?
   - key: platform_apis.platform_apis_pain_points
     t: Platform APIs  pain points
   - key: platform_apis.platform_apis_pain_points.question
@@ -628,9 +628,13 @@ translations:
     t: Data fetching
   - key: sections.data_fetching.description
     t: What data fetching solutions do you regularly use in your React Native apps?
+  - key: data_fetching.data_fetching_others
+    t: Other data fetching solutions not mentioned above
   - key: data_fetching.data_fetching_pain_points
     t: Data fetching pain points
   - key: data_fetching.data_fetching_pain_points.question
+    t: Data fetching pain points
+  - key: data_fetching.data_fetching_pain_points.description
     t: What pain points have you encountered with data fetching in your React Native projects? If applicable, point out the specific solution and its problems.
 
   # Navigation section
@@ -638,9 +642,13 @@ translations:
     t: Navigation
   - key: sections.navigation.description
     t: What navigation solutions do you regularly use in your React Native apps?
+  - key: navigation.navigation_others
+    t: Other navigation solutions not mentioned above
   - key: navigation.navigation_pain_points
     t: Navigation pain points
   - key: navigation.navigation_pain_points.question
+    t: Navigation pain points
+  - key: navigation.navigation_pain_points.description
     t: What pain points have you encountered with navigation in your React Native projects? If applicable, point out the specific solution and its problems.
  
   # State Management section
@@ -648,9 +656,13 @@ translations:
     t: State Management 
   - key: sections.state_management.description
     t: What state management solutions do you regularly use in your React Native apps?
+  - key: state_management.state_management_others
+    t: Other state management solutions not mentioned above
   - key: state_management.state_management_pain_points
-    t: State Management Pain Points
+    t: State Management pain points
   - key: state_management.state_management_pain_points.question
+    t: State management pain points
+  - key: state_management.state_management_pain_points.description
     t: What pain points have you encountered with state management in your React Native projects?
       If applicable, point out the specific solution and its problems.
   
@@ -661,11 +673,17 @@ translations:
     t: What styling techniques do you regularly use in your React Native apps?
   - key: styling.styling_pain_points
     t: Styling pain points
+  - key: styling.styling_techniques_other
+    t: Other styling solutions not mentioned above
   - key: styling.styling_pain_points.question
+    t: Styling pain points
+  - key: styling.styling_pain_points.description
     t: What pain points have you encountered with styling in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: styling.styling_techniques_pain_points
     t: Styling pain points
   - key: styling.styling_techniques_pain_points.question
+    t: Styling pain points
+  - key: styling.styling_techniques_pain_points.description
     t: What pain points have you encountered with styling in your React Native projects? If applicable, point out the specific solution and its problems.
 
   # Component Libraries section
@@ -673,9 +691,13 @@ translations:
     t: Component Libraries
   - key: sections.component_libraries.description
     t: What UI components libraries do you regularly use in your React Native apps?
+  - key: component_libraries.component_libraries_others
+    t: Other component libraries solutions not mentioned above
   - key: component_libraries.component_libraries_pain_points
     t: UI Components libraries pain points
   - key: component_libraries.component_libraries_pain_points.question
+    t: UI Components libraries pain points
+  - key: component_libraries.component_libraries_pain_points.description
     t: What pain points have you encountered with UI components libraries in your React Native projects? If applicable, point out the specific solution and its problems.
 
   # Animations section
@@ -683,9 +705,15 @@ translations:
     t: Animations
   - key: sections.animations.description
     t: What graphics and animations solutions do you use in your React Native apps?
+  - key: animations.animations_other
+    t: Other animations solutions not mentioned above
+  - key: animations.animations_pain_points
+    t: Other animation solutions not mentioned above
   - key: animations.animations_pain_points
     t: Graphics and animations pain points
   - key: animations.animations_pain_points.question
+    t: Graphics and animations pain points
+  - key: animations.animations_pain_points.description
     t: What pain points have you encountered with graphics and animations in your React Native projects? If applicable, point out the specific solution and its problems.
 
 
@@ -694,9 +722,13 @@ translations:
     t: Debugging And Profiling
   - key: sections.debugging_and_profiling.description
     t: What tools do you use to debug your React Native apps?
+  - key: debugging_and_profiling.debugging_profiling_others
+    t: Other debugging and profiling solutions not mentioned above
   - key: debugging_and_profiling.debugging_profiling_pain_points
     t: Debugging and profiling pain points
   - key: debugging_and_profiling.debugging_profiling_pain_points.question
+    t: Debugging and profiling pain points
+  - key: debugging_and_profiling.debugging_profiling_pain_points.description
     t: What pain points have you encountered with debugging and profiling in your React Native projects? If applicable, point out the specific solution and its problems.
 
   # App Aspects section
@@ -711,6 +743,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_analytics_pain_points
     t: Analytics pain points
   - key: react_native_app_aspects.react_native_app_aspects_analytics_pain_points.question
+    t: Analytics pain points
+  - key: react_native_app_aspects.react_native_app_aspects_analytics_pain_points.description
     t: What pain points have you encountered with analytics in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_crash_reporting.question
     t: Crash Reporting
@@ -719,6 +753,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_crash_reporting_pain_points
     t: Crash Reporting pain points
   - key: react_native_app_aspects.react_native_app_aspects_crash_reporting_pain_points.question
+    t: Crash Reporting pain points
+  - key: react_native_app_aspects.react_native_app_aspects_crash_reporting_pain_points.description
     t: What pain points have you encountered with crash reporting in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_data_visualisation.question
     t: Data Visualisation
@@ -727,6 +763,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_data_visualisation_pain_points
     t: Data Visualisation pain points
   - key: react_native_app_aspects.react_native_app_aspects_data_visualisation_pain_points.question
+    t: Data Visualisation pain points
+  - key: react_native_app_aspects.react_native_app_aspects_data_visualisation_pain_points.description
     t: What pain points have you encountered with data visualisation in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_storage.question
     t: Storage
@@ -735,6 +773,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_storage_pain_points
     t: Storage pain points
   - key: react_native_app_aspects.react_native_app_aspects_storage_pain_points.question
+    t: Storage pain points
+  - key: react_native_app_aspects.react_native_app_aspects_storage_pain_points.description
     t: What pain points have you encountered with storage in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_testing.question
     t: Testing
@@ -743,6 +783,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_testing_pain_points
     t: Testing pain points
   - key: react_native_app_aspects.react_native_app_aspects_testing_pain_points.question
+    t: Testing pain points
+  - key: react_native_app_aspects.react_native_app_aspects_testing_pain_points.description
     t: What pain points have you encountered with testing in your React Native projects? If applicable, point out the specific solution and its problems.
   - key: react_native_app_aspects.react_native_app_aspects_other_libraries.question
     t: Other popular libraries
@@ -751,6 +793,8 @@ translations:
   - key: react_native_app_aspects.react_native_app_aspects_other_libraries_pain_points
     t: Other Libraries pain points
   - key: react_native_app_aspects.react_native_app_aspects_other_libraries_pain_points.question
+    t: Other Libraries pain points
+  - key: react_native_app_aspects.react_native_app_aspects_other_libraries_pain_points.description
     t: What pain points have you encountered with other libraries in your React Native projects? If applicable, point out the specific solution and its problems.
   - id: react_native_app_aspects.react_native_app_aspects_architecture_local_first.question
     name: Local-first app architecture
@@ -971,10 +1015,10 @@ translations:
   - key: deployment.deployment_pain_points
     t: Deployment pain points
   - key: deployment.deployment_pain_points.question
+    t: Deployment pain points
+  - key: deployment.deployment_pain_points.description
     t: What pain points have you encountered with deployment in your React Native projects? If applicable, point out the specific solution and its problems.
   
-
-
   ###########################################################################
   # FAQ/About
   ###########################################################################
@@ -1235,6 +1279,10 @@ translations:
     t: "0.72"
   - key: options.react_native_features_version.react_native_features_version_0_73
     t: "0.73"
+  - key: options.react_native_features_version.react_native_features_version_0_74
+    t: "0.74"
+  - key: options.react_native_features_version.react_native_features_version_0_75
+    t: "0.75"
   - key: options.react_native_features_version.react_native_features_version_next
     t: next
   - key: options.react_native_features_version.react_native_features_version_nightly
@@ -1269,7 +1317,9 @@ translations:
     t: Mobile-Web code sharing
 
   - key: deployment.deployment_other
-    t: Other ways to build app and submit for the App Store or Google Play
+    t: Other deployment solutions
+  - key: deployment.deployment_other.question
+    t: Other ways to build app and release to the stores
 
   - key: tools.tools_js_ts
     t: JavaScript/TypeScript Balance
